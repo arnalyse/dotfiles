@@ -37,4 +37,7 @@ do
   source $file
 done
 
+# put npm in path
+export PATH=/usr/local/share/npm/bin:$PATH
+
 unset config_files
